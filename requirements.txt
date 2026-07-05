@@ -1,0 +1,30 @@
+# requirements.txt
+# Versões críticas: transformers e sentencepiece devem ser exatamente estas para garantir o funcionamento correto do Pegasus.
+
+# ── modelos e embeddings ──────────────────────────────────────────────────────
+transformers==4.26.1
+sentencepiece==0.1.97
+torch>=2.0.0
+bert-score>=0.3.13
+
+# ── clientes de API ───────────────────────────────────────────────────────────
+groq>=0.4.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# ── processamento de dados ────────────────────────────────────────────────────
+pandas>=2.0.0
+jsonlines>=3.1.0
+PyYAML>=6.0
+
+# ── avaliação e classificação ─────────────────────────────────────────────────
+scikit-learn>=1.3.0
+nltk>=3.8.0
+spacy>=3.7.0
+
+# ── visualização ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+wordcloud>=1.9.0
+
+# ── progresso ────────────────────────────────────────────────────────────────
+tqdm>=4.65.0
